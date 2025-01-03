@@ -11,7 +11,7 @@ Etudiant::Etudiant(string nom_, int age_)
 
 Etudiant::~Etudiant()
 {
-	delete notes;
+	delete[] notes;
 }
 
 void Etudiant::ajouterNote(int note)

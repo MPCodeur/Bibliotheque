@@ -27,14 +27,17 @@ public:
 
 class Classe {
 private:
-	Etudiant **etudiant;
+	Etudiant **etudiants;
 	int nbEtudiant;
 	int capaciteEtudiants;
 public:
-	Classe(int, int);
+	Classe(int);
 	~Classe();
-	void ajouterEtudiant(Etudiant);
+	void ajouterEtudiant(Etudiant*);
 	void afficherTous();
+
+	int &getnbEtudiant() {return nbEtudiant;}
+	int getCapaciteEtudiants() {return capaciteEtudiants;}
 };
 
 #endif

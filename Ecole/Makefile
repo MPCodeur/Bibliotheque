@@ -5,7 +5,8 @@ CC	= g++
 RM	= rm -f
 
 SRCS	= src/main.cpp	\
-		src/ecole.cpp
+		src/etudiant.cpp \
+		src/classe.cpp
 
 OBJS	= $(SRCS:.cpp=.o)
 
