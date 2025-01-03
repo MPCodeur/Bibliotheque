@@ -25,7 +25,7 @@ clean:
 
 fclean: clean
 	$(RM) $(NAME)
-	$(RM) *~
+	$(RM) src/*~
 
 re: fclean all
 
