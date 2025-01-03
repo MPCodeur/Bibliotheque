@@ -1,4 +1,4 @@
-#include "biblio.h"
+#include "../include/biblio.h"
 
 int affichage(int choix) {
 	cout << "Que voulez-vous faire ?" << endl;

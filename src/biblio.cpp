@@ -1,4 +1,4 @@
-#include "biblio.h"
+#include "../include/biblio.h"
 
 int Bibliotheque::totalLivre = 0;
 
